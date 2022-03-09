@@ -16,10 +16,10 @@ public class Score {
 	}
 	
 	public void setMovie(Movie movie) {
-		this.setMovie(movie);
+		id.setMovie(movie);
 	}
 	
-	public void SetUser(User user) {
+	public void setUser(User user) {
 		id.setUser(user);
 	}
 
