@@ -8,6 +8,8 @@ import { BASE_URL } from "utils/requests";
 function Listing() {
   const [pageNumber, setPageNumber] = useState(0);
 
+  
+
   useEffect(() => {
     axios.get(`${BASE_URL}/movies?size=12&page=0`).then((response) => {
       const data = response.data as MoviePage;
